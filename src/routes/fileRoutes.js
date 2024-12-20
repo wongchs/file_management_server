@@ -11,4 +11,6 @@ router.get("/:id", fileController.getFileById);
 
 router.delete("/:id", fileController.deleteFile);
 
+router.put("/:id/description", fileController.updateDescription);
+
 module.exports = router;

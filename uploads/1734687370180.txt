@@ -1,0 +1,11 @@
+Introduction
+Epilepsy affects approximately 50 million people worldwide, and traditional monitoring methods often lack efficiency. EEG sensors offer the potential to capture real-time brain electrical activity, making them valuable tools for epilepsy monitoring. This project aims to provide continuous, real-time monitoring and analysis of epilepsy activity, ultimately improving the management of the condition for patients.
+
+The aim of this project is to develop a mobile application to support real-time monitoring of epilepsy using EEG sensors.Daily monitoring of epilepsy provides crucial insights for patients and doctors to understand seizure behavior. It is essential to have a solution for real-time monitoring, data sharing, and storage. Additionally, timely alerts to patients during seizures are imperative.
+
+Objectives:
+1. Develop a mobile application for real-time EEG data collection and analysis.
+2. Develop a component to alert patients when early sign of seizures is detected.
+3. Implement a cloud-based storage solution for data storage and retrieval. Thus providing a comprehensive system for daily monitoring and providing necessary updates for both doctor and patienta.
+
+Development of a mobile application foR Enhancing Epilepsy Care with Real-time Monitoring, Alerting, and Secure Cloud Storage

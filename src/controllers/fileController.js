@@ -54,3 +54,22 @@ exports.deleteFile = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+
+exports.updateDescription = async (req, res) => {
+  try {
+    const { description } = req.body;
+    const file = await File.findByIdAndUpdate(
+      req.params.id,
+      { description },
+      { new: true }
+    );
+
+    if (!file) {
+      return res.status(404).json({ message: "File not found" });
+    }
+
+    res.status(200).json(file);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
